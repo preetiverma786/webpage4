@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    background: #131e3a;
+    display: flex;
+    padding: 0px 125px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul li{
+    margin: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+header ul li a.active{
+    color: #fc527b;
+}
+header ul li a.log{
+    color: #09ec09;
+}
